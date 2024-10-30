@@ -1,4 +1,4 @@
-.page {
+/* .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
@@ -106,10 +106,10 @@ a.secondary {
 
 .footer img {
   flex-shrink: 0;
-}
+} */
 
 /* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
     background: var(--button-primary-hover);
     border-color: transparent;
@@ -165,4 +165,54 @@ a.secondary {
   .logo {
     filter: invert();
   }
+} */
+
+
+
+
+
+
+
+/* #fafafa */
+.mainContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  color: black;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.sidebarContainer {
+  padding: 12px 12px;
+  width: 180px;
+  border-right: 1px dashed gray;
+}
+
+.pageContainer {
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  overflow: auto;
+}
+
+.headerContainer {
+  padding: 12px 16px;
+  height: 60px;
+  border-bottom: 1px dashed gray;
+  text-align: center;
+}
+
+.contextualContainer {
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.contextualWrapper {
+  flex: 1;
+  padding: 16px;
+}
+
+.footerContainer {
+
 }
