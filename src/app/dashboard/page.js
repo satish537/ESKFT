@@ -128,7 +128,7 @@ export default function Dashboard() {
     return (
         <div className="main-container">
             <div style={{ background: '#fafafa', padding: '12px', borderRadius: '8px' }}>
-                <h2 style={{ margin: '0 0 24px', fontWeight: '400' }}>Requests Workflow</h2>
+                <h2 style={{ margin: '0 0 24px', fontWeight: '400' }}>Physical Servers</h2>
                 <TableContainer component={Paper}>
                     <Table sx={{ textAlignLast: 'center' }}>
                         <TableHead>

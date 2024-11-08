@@ -29,7 +29,11 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <div className={styles.mainContainer}>
           <div className={styles.sidebarContainer}>
-            <h4>sidebar content</h4>
+            <img className={styles.appLogo} src="static/images/barclays.png"></img>
+            <div className={styles.menuList}>
+              <div className={styles.menu}>Home</div>
+              <div className={styles.active}>My Machines</div>
+            </div>
           </div>
           <div className={styles.pageContainer}>
             <div className={styles.headerContainer}>

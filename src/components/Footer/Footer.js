@@ -3,7 +3,7 @@
 export default function Footer() {
     return (
         <div>
-            footer works!
+            {/* footer works! */}
         </div>
     );
 }
