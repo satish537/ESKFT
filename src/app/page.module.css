@@ -181,7 +181,9 @@ a.secondary {
   flex-flow: row nowrap;
   color: black;
   background-color: white;
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: auto;
 }
 
 .sidebarContainer {
@@ -236,13 +238,13 @@ a.secondary {
   flex: 1;
   display: flex;
   flex-flow: column nowrap;
+  overflow: auto;
 }
 
 .contextualWrapper {
   flex: 1;
   padding: 16px;
+  overflow: auto;
 }
 
-.footerContainer {
-
-}
+.footerContainer {}
