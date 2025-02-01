@@ -5,3 +5,20 @@ module.exports = {
   cache: false,
   distDir: 'custom-dir', // A writable folder
 }
+
+
+
+// next.config.mjs
+export default {
+  distDir: 'custom-build-folder', // Set this to a writable folder
+  experimental: {
+    outputStandalone: true,
+  },
+  webpack(config, { isServer }) {
+    if (!isServer) {
+      // Disable cache for production
+      config.cache = false;
+    }
+    return config;
+  },
+}
