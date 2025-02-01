@@ -1,0 +1,7 @@
+module.exports = {
+  experimental: {
+    outputStandalone: true,
+  },
+  cache: false,
+  distDir: 'custom-dir', // A writable folder
+}
