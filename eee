@@ -8,3 +8,17 @@ bsrid: str
     location: str
     os: str
     class_: str  # 'class' is a reserved keyword in Python, so we use 'class_'
+
+
+server_obj = {
+        "bsrid": data.bsrid,
+        "servername": data.servername,
+        "status": data.status,
+        "itslf": data.itslf,
+        "tcid": data.tcid,
+        "master_crn": data.master_crn,
+        "scheduled_date": data.scheduled_date,
+        "location": data.location,
+        "os": data.os,
+        "class": data.class_  # Renaming back for the response
+    }
