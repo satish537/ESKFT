@@ -1,0 +1,10 @@
+bsrid: str
+    servername: str
+    status: str
+    itslf: str
+    tcid: str
+    master_crn: str
+    scheduled_date: str
+    location: str
+    os: str
+    class_: str  # 'class' is a reserved keyword in Python, so we use 'class_'
